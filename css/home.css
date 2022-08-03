@@ -1,0 +1,9 @@
+.critical {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#home {
+  cursor: not-allowed;
+  text-decoration: underline;
+}

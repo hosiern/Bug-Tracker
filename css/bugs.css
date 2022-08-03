@@ -1,0 +1,28 @@
+.table1 {
+  margin: 15px 10px;
+  overflow-x: auto;
+  width: 900px;
+}
+
+table,
+thead,
+td {
+  border: 0.5px solid;
+  border-collapse: collapse;
+}
+
+.t-head {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.bug-date,
+.bug-status,
+.bug-impact {
+  text-align: center;
+}
+
+#bugs {
+  cursor: not-allowed;
+  text-decoration: underline;
+}
