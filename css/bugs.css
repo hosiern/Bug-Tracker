@@ -18,11 +18,51 @@ td {
 
 .bug-date,
 .bug-status,
-.bug-impact {
+.bug-impact,
+.manage {
   text-align: center;
 }
 
 #bugs {
   cursor: not-allowed;
   text-decoration: underline;
+}
+
+.table-button {
+  align-items: center;
+  cursor: pointer;
+}
+
+.manage {
+  position: relative;
+}
+
+.tooltip {
+  background-color: lightgrey;
+  border: 0.5px solid;
+  border-radius: 2px;
+  bottom: -13px;
+  font-size: 0.5rem;
+  padding: 1px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 999;
+}
+
+.table-button:hover .tooltip {
+  visibility: visible;
+}
+
+.edit-p {
+  left: 9px;
+}
+
+.complete-p {
+  bottom: -22px;
+  left: 19px;
+  width: 40px;
+}
+
+.trash-p {
+  left: 41px;
 }
