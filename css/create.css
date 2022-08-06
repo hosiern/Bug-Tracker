@@ -1,0 +1,29 @@
+.add-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#create {
+  cursor: not-allowed;
+  text-decoration: underline;
+}
+
+.date,
+.issue {
+  display: flex;
+  margin-left: 25px;
+}
+
+.date-label {
+  padding-top: 25px;
+}
+
+.issue-label {
+  margin-left: 25px;
+  padding-top: 25px;
+}
+
+.issue {
+  text-align: left;
+  margin-left: 25px;
+}
